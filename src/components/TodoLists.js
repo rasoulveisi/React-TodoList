@@ -14,10 +14,10 @@ const TodoLists = (props) => {
       <ul>
         <button onClick={props.onFetch}>Refresh List</button>
         {props.todos.map((todo) => (
-          <li key={todo.id}>
-            <div>{todo.task}</div>
+          <div key={todo.id}>
+            <li>{todo.task}</li>
             <span>Date: {todo.date}</span>
-          </li>
+          </div>
         ))}
       </ul>
     </Box>
