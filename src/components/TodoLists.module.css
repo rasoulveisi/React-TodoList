@@ -14,12 +14,12 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-
-  margin: 0rem 0rem 0rem;
+  /* margin: 0rem 0rem 0rem; */
+  /* margin-left: 5px; */
   background-color: #282c34;
   color: rgb(255, 255, 255);
   border-radius: 5px;
-  align-items: center;
+  align-items: left;
 }
 
 .task button {
@@ -39,10 +39,18 @@
   background-color: #2d313a;
 }
 
-.task span {
+.task-span {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 0rem;
   font-size: 10px;
+  margin-left: auto;
   /* margin-bottom: 1rem; */
 }
 .task div {
   margin-bottom: 0.5rem;
+}
+.delete {
+  cursor: pointer;
 }
