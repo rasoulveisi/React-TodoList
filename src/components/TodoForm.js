@@ -59,7 +59,7 @@ const TodoForm = (props) => {
             type="date"
             id="Date"
             ref={dateTodo}
-            defaultValue={`${year}-${day}-${month}`}
+            value={`${year}-${day}-${month}`}
           />
           {/* <label htmlFor="Category">Category</label>
           <select id="Category" ref={catTodo}>
